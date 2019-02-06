@@ -104,7 +104,7 @@ input {
     background-color: #EEE;
 }
 
-.table {
+.available {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,11 +115,23 @@ input {
     border: 2px solid #CCC;
     color: #ADAAAA;
     border-radius: 50%;
-    
 }
 
 .table:hover {
     background-color: #ccc;
+    color: black;
     border: 2px solid #eee;
 }
 
+.reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 72px;
+    margin: 20px;
+    background-color: #ADAAAA;
+    color: #CCC;
+    border-radius: 50%;
+    
+}
